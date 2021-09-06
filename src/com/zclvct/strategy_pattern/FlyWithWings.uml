@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zclvct.strategy_mode.behavior.impl.FlyWithWings</OriginalElement>
+  <nodes>
+    <node x="306.5" y="106.0">com.zclvct.strategy_mode.behavior.impl.Quack</node>
+    <node x="529.0" y="484.0">com.zclvct.strategy_mode.duck.ReaHeadDuck</node>
+    <node x="542.6964285714284" y="0.0">com.zclvct.strategy_mode.behavior.FlyBehavior</node>
+    <node x="329.5" y="238.0">com.zclvct.strategy_mode.duck.Duck</node>
+    <node x="166.49999999999997" y="106.0">com.zclvct.strategy_mode.behavior.impl.Squeak</node>
+    <node x="458.5" y="106.0">com.zclvct.strategy_mode.behavior.impl.FlyNoWay</node>
+    <node x="10.5" y="106.0">com.zclvct.strategy_mode.behavior.impl.MuteQuack</node>
+    <node x="370.0" y="484.0">com.zclvct.strategy_mode.duck.MalardDuck</node>
+    <node x="208.0" y="484.0">com.zclvct.strategy_mode.duck.RubberDuck</node>
+    <node x="603.5" y="106.0">com.zclvct.strategy_mode.behavior.impl.FlyWithWings</node>
+    <node x="156.6964285714285" y="0.0">com.zclvct.strategy_mode.behavior.QuackBehavior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zclvct.strategy_mode.behavior.impl.Squeak" target="com.zclvct.strategy_mode.behavior.QuackBehavior" relationship="REALIZATION">
+      <point x="2.8421709430404007E-14" y="-40.0" />
+      <point x="226.5" y="81.0" />
+      <point x="236.696" y="81.0" />
+      <point x="-4.2857142850039054E-4" y="28.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.behavior.impl.MuteQuack" target="com.zclvct.strategy_mode.behavior.QuackBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="78.5" y="81.0" />
+      <point x="236.696" y="81.0" />
+      <point x="-4.2857142850039054E-4" y="28.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.duck.Duck" target="com.zclvct.strategy_mode.behavior.impl.Quack" relationship="CREATE">
+      <point x="-76.0" y="-98.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.duck.RubberDuck" target="com.zclvct.strategy_mode.duck.Duck" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="279.0" y="459.0" />
+      <point x="442.5" y="459.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.duck.Duck" target="com.zclvct.strategy_mode.behavior.FlyBehavior" relationship="DEPENDENCY">
+      <point x="113.0" y="0.0" />
+      <point x="772.0" y="336.0" />
+      <point x="772.0" y="28.0" />
+      <point x="67.5" y="0.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.duck.MalardDuck" target="com.zclvct.strategy_mode.duck.Duck" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="439.5" y="459.0" />
+      <point x="442.5" y="459.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.duck.Duck" target="com.zclvct.strategy_mode.behavior.QuackBehavior" relationship="DEPENDENCY">
+      <point x="-113.0" y="0.0" />
+      <point x="-7.0" y="336.0" />
+      <point x="-7.0" y="28.0" />
+      <point x="-80.0" y="0.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.duck.Duck" target="com.zclvct.strategy_mode.behavior.QuackBehavior" relationship="TO_ONE">
+      <point x="-113.0" y="15.0" />
+      <point x="-22.0" y="351.0" />
+      <point x="-22.0" y="13.0" />
+      <point x="-80.0" y="-15.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.behavior.impl.Quack" target="com.zclvct.strategy_mode.behavior.QuackBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="366.5" y="81.0" />
+      <point x="236.696" y="81.0" />
+      <point x="-4.2857142850039054E-4" y="28.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.duck.ReaHeadDuck" target="com.zclvct.strategy_mode.duck.Duck" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="606.0" y="459.0" />
+      <point x="442.5" y="459.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.duck.Duck" target="com.zclvct.strategy_mode.behavior.FlyBehavior" relationship="TO_ONE">
+      <point x="113.0" y="15.0" />
+      <point x="787.0" y="351.0" />
+      <point x="787.0" y="13.0" />
+      <point x="67.5" y="-15.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.behavior.impl.FlyNoWay" target="com.zclvct.strategy_mode.behavior.FlyBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="521.0" y="81.0" />
+      <point x="610.196" y="81.0" />
+      <point x="-4.285714284151254E-4" y="28.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.behavior.impl.FlyWithWings" target="com.zclvct.strategy_mode.behavior.FlyBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="679.0" y="81.0" />
+      <point x="610.196" y="81.0" />
+      <point x="-4.285714284151254E-4" y="28.0" />
+    </edge>
+    <edge source="com.zclvct.strategy_mode.duck.Duck" target="com.zclvct.strategy_mode.behavior.impl.FlyWithWings" relationship="CREATE">
+      <point x="113.0" y="-15.0" />
+      <point x="675.5" y="321.0" />
+      <point x="-3.5" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="383.0" y="282.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

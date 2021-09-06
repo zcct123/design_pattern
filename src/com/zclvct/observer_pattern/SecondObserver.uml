@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zclvct.observer_pattern.SecondObserver</OriginalElement>
+  <nodes>
+    <node x="-276.25" y="239.0">com.zclvct.observer_pattern.WeatherDate</node>
+    <node x="-3.75" y="98.5">com.zclvct.observer_pattern.Observer</node>
+    <node x="334.25" y="294.5">com.zclvct.observer_pattern.SecondObserver</node>
+    <node x="50.75" y="294.5">com.zclvct.observer_pattern.FirstObserver</node>
+    <node x="379.75" y="98.5">com.zclvct.observer_pattern.Displable</node>
+    <node x="-268.0" y="64.0">com.zclvct.observer_pattern.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zclvct.observer_pattern.FirstObserver" target="com.zclvct.observer_pattern.Observer" relationship="REALIZATION">
+      <point x="-54.5" y="-51.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.zclvct.observer_pattern.SecondObserver" target="com.zclvct.observer_pattern.Displable" relationship="REALIZATION">
+      <point x="54.5" y="-51.5" />
+      <point x="497.75" y="220.0" />
+      <point x="443.25" y="220.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.zclvct.observer_pattern.WeatherDate" target="com.zclvct.observer_pattern.Subject" relationship="REALIZATION">
+      <point x="-59.75" y="-98.0" />
+      <point x="-148.5" y="239.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.zclvct.observer_pattern.FirstObserver" target="com.zclvct.observer_pattern.Displable" relationship="REALIZATION">
+      <point x="54.5" y="-51.5" />
+      <point x="214.25" y="203.0" />
+      <point x="443.25" y="203.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.zclvct.observer_pattern.SecondObserver" target="com.zclvct.observer_pattern.Observer" relationship="REALIZATION">
+      <point x="-54.5" y="-51.5" />
+      <point x="388.75" y="213.0" />
+      <point x="105.25" y="213.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="260.0" y="312.5" />
+  <SelectedNodes>
+    <node>com.zclvct.observer_pattern.SecondObserver</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
