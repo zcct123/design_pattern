@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class Beverage{
+description
+mike
+soy
+mocha
+whip
+getdescription()
+cost()
+
+hasMilk()
+setMilk()
+hasSoy()
+getSoy()
+...()
+}
+
+
+Beverage <|-- HouseBlend
+Beverage <|-- DarkRoast
+Beverage <|-- Decaf
+Beverage <|-- Espresso
+
+
+
+@enduml
